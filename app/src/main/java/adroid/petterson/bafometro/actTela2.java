@@ -24,7 +24,7 @@ public class actTela2 extends AppCompatActivity {
         if (jejum.equals("n")) {
             coeficiente = 1.1;
         } else {
-            coeficiente = sexo.equals("f") ? 2 : 0.1;
+            coeficiente = sexo.equals("f") ? 0.6 : 0.7;
         }
 
         // calcula alcool
